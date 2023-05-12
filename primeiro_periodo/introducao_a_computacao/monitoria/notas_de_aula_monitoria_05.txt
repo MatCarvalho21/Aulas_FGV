@@ -1,0 +1,13 @@
+CLASSES 
+- Olhar o diagrama das classes e tentar entender. link: https://pt.stackoverflow.com/questions/311968/classes-com-associa%C3%A7%C3%B5es-em-uml
+- Classes vão emular objetos da vida real. 
+
+Exemplo do Emapiano: Ele tem nome, cr, curso, bolsa, período e numero da matrícula (único para cada instancia do objeto emapiano).
+Cada aluno da emap é uma instancia do objeto emapiano, e possuí propriedades características daquele objeto. 
+É uma boa prática que todos as propriedades sejam privados e não sejam vuneráveis a modificações a partir de manipulações.
+Métodos são funções características daquele objeto. Como as listas. 
+Quando instanciamos um objeto, aquela instancia "aprende" os métodos do objeto. 
+No python, todo objeto deve ter o método __init__. Esse método facilita a criação de instancias. Quando chamamos a classe e criamos uma instancia, esse método construtor é ativado automaticamente.
+Podemos ter métodos que nos permitem acessar propriedades de uma instancia. EX.: .get_cr() pode ser um método que retorna o cr da instancia para o usuário, sem ele interferir na propriedade que é privada ao usuário. 
+Quando um método é __metodo__ nesse formato, significa que o método deveria ser privado e não deveria ser chamado. 
+Podemos criar métodos que possam alterar as propriedades. Ex.: .set_cr(), vai permitir que o usuário altere o cr por meio do método. Esse método é público.
