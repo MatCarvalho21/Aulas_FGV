@@ -1,5 +1,7 @@
 # MÓDULO SIMPLES 
+import sys 
 
+print(sys.path)
 def saudacao():
     '''
     função "surda e muda", uma vez que não recebe nada e nem recebe nada
@@ -11,4 +13,5 @@ def saudacao():
 mensagem1 = "O Yuri é um grande homem."
 
 if __name__ == "__main__": # nesse bloco eu coloco tudo que eu quero que seja executado quando eu rodar apenas o módulo diretamente
+
     print("Código executado!")
