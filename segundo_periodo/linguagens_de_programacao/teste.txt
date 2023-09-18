@@ -1,0 +1,8 @@
+>>> funcao_inutil(2)
+2
+
+>>> funcao_inutil(5)
+5
+
+>>> funcao_inutil(10)
+15
